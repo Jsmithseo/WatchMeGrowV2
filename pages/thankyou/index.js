@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import 'bootstrap/dist/css/bootstrap.css';
 import Footer from '../components/MainFooter'
-import ThankYouBanner from "../components/ThankYouBanner"
+import ThankYouBanner from "../components/ThankyouBanner"
 import { Container, Row, Col } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
