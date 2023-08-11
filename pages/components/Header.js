@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Logo from '../public/logo.png';
-import Words from '../public/words.png';
 import {Col, Button, Row,Navbar, NavbarToggler, Nav, NavItem, Collapse } from 'reactstrap';
 
 
@@ -50,12 +49,6 @@ function Header() {
             <Link href="/" >
        <Image 
        src={Logo} 
-      alt="Description of Image"
-      width={150}  
-      height={125}
-      />
-       <Image 
-       src={Words} 
       alt="Description of Image"
       width={150}  
       height={125}
