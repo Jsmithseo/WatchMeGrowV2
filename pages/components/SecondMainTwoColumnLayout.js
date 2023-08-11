@@ -35,7 +35,7 @@ const SecondMainTwoColumnLayout = () => {
     <div style={mainStyle}>
     <Container>
       <Row className="text-center">
-        <Col>
+        <Col  lg="6" md="6" sm="12" xs="12">
         {/* <Image 
         src={families } 
         alt="Description of Image"
@@ -47,7 +47,7 @@ const SecondMainTwoColumnLayout = () => {
           Understanding the monumental significance of these formative years, we've designed our childhood development programs as a nurturing environment – much like fertile soil – to ensure every child's potential is recognized, encouraged, and protected.
           </p>
         </Col>
-        <Col>
+        <Col lg="6" md="6" sm="6" xs="12">
           {/* <Image 
         src={families} 
         alt="Description of Image"

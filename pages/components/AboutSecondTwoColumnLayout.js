@@ -21,7 +21,7 @@ function TwoColumnLayout(){
         <div style={mainStyle}>
         <Container>
             <Row>
-            <Col md={{ size: 2, offset: 2}}>
+            <Col md={{ size: 2, offset: 2}} sm="12" xs="12">
         <Image style={imageStyle}
         src={Jameelah} 
         alt="Description of Image"
@@ -30,7 +30,7 @@ function TwoColumnLayout(){
       />
                             
                 </Col>
-                <Col md={{ size: 6, offset: 1}}>
+                <Col md={{ size: 6, offset: 1}} >
 
 <div>
 <h3>About The Gardener</h3>

@@ -23,14 +23,6 @@ const footerLinks = {
       <div className="col-md-6">
         <p>&copy; 2023 Watch Me Grow Inc</p>
       </div>
-      <div className="col-md-6">
-        <ul style={footerLinks} className="footer-links">
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Accessibility</a></li>
-        </ul>
-      </div>
     </div>
   </div>
 </footer>

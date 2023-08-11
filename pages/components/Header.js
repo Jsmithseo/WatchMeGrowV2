@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Logo from '../public/logo.png';
 import {Col, Button, Row,Navbar, NavbarToggler, Nav, NavItem, Collapse } from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 
@@ -42,22 +43,44 @@ function Header() {
     backgroundColor: '#C11C27',
 
   }
+
+
+
+
+
+
     return (
         <div>
+          <style jsx>{`
+
+@media (max-width: 769px) {
+
+  .container {
+    display: none;
+  }
+}
+      `}
+      </style>
+
           <Row>
           <Col md={{ size: 4, offset: 2 }}>
+            <div className="container">
             <Link href="/" >
+              
        <Image 
        src={Logo} 
       alt="Description of Image"
       width={150}  
       height={125}
       />
+     
       </Link>
+      </div>
       </Col>
            <Col  md={{ size: 4, offset: 1 }}>
    <Link href="/donate"><Button style={buttonStyle}  color="success" size="lg">Donate Now</Button></Link>
    <Button  style={buttonStyle2}  size="lg">Join Newsletter</Button>{' '}
+
    </Col>
    </Row>
 
