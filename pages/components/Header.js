@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from "../public/logo.png"
-import words from "../public/words.png"
+import logo from "../public/logo.png";
+import words from "../public/words.png";
 import {Col, Button, Row,Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Collapse, Container } from 'reactstrap';
 
 
