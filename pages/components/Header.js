@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import logo from "../public/logo.png";
-import words from "../public/words.png";
-import {Col, Button, Row,Navbar, NavbarToggler, NavbarBrand, Nav, NavItem, NavLink, Collapse, Container } from 'reactstrap';
+import Logo from "./public/logo.png";
+import Words from "./public/words.png";
+import {Col, Button, Row,Navbar, NavbarToggler, Nav, NavItem, Collapse } from 'reactstrap';
 
 
 
@@ -49,13 +49,13 @@ function Header() {
           <Col md={{ size: 4, offset: 2 }}>
             <Link href="/" >
        <Image 
-       src={logo} 
+       src={Logo} 
       alt="Description of Image"
       width={150}  
       height={125}
       />
        <Image 
-       src={words} 
+       src={Words} 
       alt="Description of Image"
       width={150}  
       height={125}
