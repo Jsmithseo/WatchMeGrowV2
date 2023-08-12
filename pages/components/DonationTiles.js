@@ -46,6 +46,7 @@ function ProgramTiles() {
     .mainStyle {
       margin-top: 100px;
       margin-buttom: 100px;
+      padding-bottom: 100px;
     }
   
     .links {

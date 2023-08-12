@@ -10,6 +10,16 @@ const MainStyle = {
   overflowX: 'hidden',
 };
 
+const copyStyle = {
+  fontSize: '22px',
+  fontFamily: 'avenir',
+  paddingTop: '100px',
+  paddingBottom: '100px'
+
+}
+
+
+
 export default function Thankyou() {
   return (
     <div style={MainStyle}>
@@ -19,7 +29,7 @@ export default function Thankyou() {
         <Row>
           <Col md="12">
             <div className="bio-content">
-              <div>
+              <div style={copyStyle}>
                 We're excited to welcome you to the Watch Me Grow community!
                 Thank you for subscribing to our newsletter. It's a step towards
                 staying informed, inspired, and engaged with the latest from us.

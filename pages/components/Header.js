@@ -98,6 +98,15 @@ function Header() {
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
+            <NavItem>
+               
+               <Link href="/home/">
+               <div className='navLinks'>
+                 Home 
+                 </div>
+               </Link>
+           
+             </NavItem>
               <NavItem>
                
                 <Link href="/about/">
