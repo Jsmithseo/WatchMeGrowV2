@@ -1,105 +1,113 @@
 import React, { useState } from 'react';
-import { Button, Form, FormGroup, Label, Input, Container, Textarea } from 'reactstrap';
+import {
+  Button,
+  Form,
+  FormGroup,
+  Label,
+  Input,
+  Container,
+  Textarea,
+} from 'reactstrap';
 
 const VolunteerForm = () => {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        phone: '',
-        interest: '',
-        description: ''
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    phone: '',
+    interest: '',
+    description: '',
+  });
+
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData((prevState) => ({ ...prevState, [name]: value }));
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Handle form submission logic here
+    console.log(`Form submitted:`, formData);
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      interest: '',
+      description: '',
     });
+  };
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prevState => ({ ...prevState, [name]: value }));
-    }
+  const MainStyles = {
+    padding: '20px 20px 20px 20px',
+  };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        // Handle form submission logic here
-        console.log(`Form submitted:`, formData);
-        setFormData({
-            name: '',
-            email: '',
-            phone: '',
-            interest: '',
-            description: ''
-        });
-    }
-
-    const MainStyles = {
-
-        padding: "20px 20px 20px 20px"
-    }
-
-
-    return (
-        <div style={MainStyles}>
-        <Container>
-            <Form onSubmit={handleSubmit}>
-                <FormGroup>
-                    <Label for="name">Name:</Label>
-                    <Input
-                        type="text"
-                        name="name"
-                        id="name"
-                        placeholder="Enter your full name"
-                        value={formData.name}
-                        onChange={handleChange}
-                        required
-                    />
-                </FormGroup>
-                <FormGroup>
-                    <Label for="email">Email:</Label>
-                    <Input
-                        type="email"
-                        name="email"
-                        id="email"
-                        placeholder="Enter your email"
-                        value={formData.email}
-                        onChange={handleChange}
-                        required
-                    />
-                </FormGroup>
-                <FormGroup>
-                    <Label for="phone">Phone:</Label>
-                    <Input
-                        type="tel"
-                        name="phone"
-                        id="phone"
-                        placeholder="Enter your phone number"
-                        value={formData.phone}
-                        onChange={handleChange}
-                    />
-                </FormGroup>
-                <FormGroup>
-                    <Label for="interest">Areas of Interest:</Label>
-                    <Input
-                        type="text"
-                        name="interest"
-                        id="interest"
-                        placeholder="E.g., Teaching, Event Organization"
-                        value={formData.interest}
-                        onChange={handleChange}
-                    />
-                </FormGroup>
-                <FormGroup>
-                    <Label for="description">Why do you want to volunteer?</Label>
-                    <Input
-                        type="textarea"
-                        name="description"
-                        id="description"
-                        placeholder="Share a brief description"
-                        value={formData.description}
-                        onChange={handleChange}
-                    />
-                </FormGroup>
-                <Button type="submit" color="primary">Sign Up</Button>
-            </Form>
-        </Container>
-        </div>
-    );
-}
+  return (
+    <div style={MainStyles}>
+      <Container>
+        <Form onSubmit={handleSubmit}>
+          <FormGroup>
+            <Label for="name">Name:</Label>
+            <Input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your full name"
+              value={formData.name}
+              onChange={handleChange}
+              required
+            />
+          </FormGroup>
+          <FormGroup>
+            <Label for="email">Email:</Label>
+            <Input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+              value={formData.email}
+              onChange={handleChange}
+              required
+            />
+          </FormGroup>
+          <FormGroup>
+            <Label for="phone">Phone:</Label>
+            <Input
+              type="tel"
+              name="phone"
+              id="phone"
+              placeholder="Enter your phone number"
+              value={formData.phone}
+              onChange={handleChange}
+            />
+          </FormGroup>
+          <FormGroup>
+            <Label for="interest">Areas of Interest:</Label>
+            <Input
+              type="text"
+              name="interest"
+              id="interest"
+              placeholder="E.g., Teaching, Event Organization"
+              value={formData.interest}
+              onChange={handleChange}
+            />
+          </FormGroup>
+          <FormGroup>
+            <Label for="description">Why do you want to volunteer?</Label>
+            <Input
+              type="textarea"
+              name="description"
+              id="description"
+              placeholder="Share a brief description"
+              value={formData.description}
+              onChange={handleChange}
+            />
+          </FormGroup>
+          <Button type="submit" color="primary">
+            Sign Up
+          </Button>
+        </Form>
+      </Container>
+    </div>
+  );
+};
 
 export default VolunteerForm;

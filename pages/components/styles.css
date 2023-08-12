@@ -1,10 +1,9 @@
 .primeNav {
-    background-color: #C11C27;
+  background-color: #c11c27;
 }
 
-
 carousel-caption {
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 10px;
-  }
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 10px;
+}

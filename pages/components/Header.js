@@ -2,116 +2,123 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Logo from '../public/logo.png';
-import {Col, Button, Row,Navbar, NavbarToggler, Nav, NavItem, Collapse } from 'reactstrap';
-import 'bootstrap/dist/css/bootstrap.css'
-
-
+import {
+  Col,
+  Button,
+  Row,
+  Navbar,
+  NavbarToggler,
+  Nav,
+  NavItem,
+  Collapse,
+} from 'reactstrap';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function Header() {
-
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
-
   const navStyles = {
-    backgroundColor: "#C11B27",
-  }
+    backgroundColor: '#C11B27',
+  };
 
   const navLinks = {
     font: 'avenir',
     fontSize: '18px',
-    color: "#fff",
+    color: '#fff',
     paddingRight: '25px',
-    paddingTop:"50px",
+    paddingTop: '50px',
     paddingLeft: '25px',
- textDecoration: 'none',
- fontFamily: 'avenir',
-
-  }
+    textDecoration: 'none',
+    fontFamily: 'avenir',
+  };
 
   const aboveNavStyles = {
-    paddingTop: "30px",
-    paddingBottom: "30px",
-
-  }
+    paddingTop: '30px',
+    paddingBottom: '30px',
+  };
 
   const buttonStyle = {
-    marginTop: "50px",
-  }
+    marginTop: '50px',
+  };
   const buttonStyle2 = {
-    marginTop: "50px",
+    marginTop: '50px',
     backgroundColor: '#C11C27',
+  };
 
-  }
-
-
-
-
-
-
-    return (
-        <div>
-          <style jsx>{`
-
-@media (max-width: 769px) {
-
-  .container {
-    display: none;
-  }
-}
-      `}
+  return (
+    <div>
+      <style jsx>
+        {`
+          @media (max-width: 1000px) {
+            .mobileButton {
+              display: none;
+            }
+          }
+          
+        `}
       </style>
+      <span className='mobileButton'>
 
-          <Row>
-          <Col md={{ size: 4, offset: 2 }}>
-            <div className="container">
-            <Link href="/" >
-              
-       <Image 
-       src={Logo} 
-      alt="Description of Image"
-      width={150}  
-      height={125}
-      />
-     
-      </Link>
-      </div>
-      </Col>
-           <Col  md={{ size: 4, offset: 1 }}>
-   <Link href="/donate"><Button style={buttonStyle}  color="success" size="lg">Donate Now</Button></Link>
-   <Button  style={buttonStyle2}  size="lg">Join Newsletter</Button>{' '}
-
-   </Col>
-   </Row>
-
-          <Navbar style={navStyles} light expand="md">
-          <Col md={{ size: 12, offset: 3 }}>
+      <Row>
+        <Col md={{ size: 4, offset: 2 }}>
+          <Link href="/">
+            <Image
+              src={Logo}
+              alt="Description of Image"
+              width={150}
+              height={125}
+            />
+          </Link>
+        </Col>
+        <Col md={{ size: 4, offset: 1 }}>
+          
+          <Link href="/donate">
+            <Button
+              style={buttonStyle}
+              color="success"
+              size="lg"
+            >
+              Donate Now
+            </Button>
+          </Link>
+          <Button className="mobileButton" style={buttonStyle2} size="lg">
+            Join Newsletter
+          </Button>{' '}
+        </Col>
+      </Row>
+      </span>
+      <Navbar style={navStyles} light expand="md">
+        <Col md={{ size: 12, offset: 3 }}>
           <NavbarToggler onClick={toggle} />
-          <Collapse  isOpen={isOpen} navbar>
+          <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link style={navLinks} href="/about/">About</Link>
+                <Link style={navLinks} href="/about/">
+                  About
+                </Link>
               </NavItem>
               <NavItem>
-                <Link   style={navLinks} href="/empower/">Empowering Families</Link>
+                <Link style={navLinks} href="/empower/">
+                  Empowering Families
+                </Link>
               </NavItem>
               <NavItem>
-                <Link  style={navLinks} href="/involved/">Get Involved</Link>
+                <Link style={navLinks} href="/involved/">
+                  Get Involved
+                </Link>
               </NavItem>
               <NavItem>
-                <Link  style={navLinks} href="/programs/">Programs</Link>
+                <Link style={navLinks} href="/programs/">
+                  Programs
+                </Link>
               </NavItem>
             </Nav>
           </Collapse>
-          </Col>
-         
-    
+        </Col>
+      </Navbar>
+    </div>
+  );
+}
 
-        </Navbar>
-   
-      </div>
-
-    )
-  }
-  
-  export default Header
+export default Header;
