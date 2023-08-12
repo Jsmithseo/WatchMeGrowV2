@@ -29,7 +29,17 @@ export default function Donate() {
   
       }
 
-     
+      @media (max-width: 600px) {
+           
+        .copy {
+          margin-right: 5px;
+          margin-left: 5px;
+          padding-top: 20px;
+          margin-bottom: -40px;
+
+        }
+
+      }
       
     `}
   </style>
