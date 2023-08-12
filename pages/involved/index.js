@@ -12,16 +12,31 @@ import InvolvedBanner from '../components/InvolvedBanner';
 import VolunteerForm from '../components/VolunteerForm';
 
 export default function Involved() {
+
   return (
+
     <div>
+          <style jsx>
+    {`
+      .copy {
+        text-align: center;
+        padding-top: 30px;
+  
+      }
+      
+      
+    `}
+  </style>
       <Header />
       <InvolvedBanner />
       {/* <AboutTwoColumnLayout /> */}
+      <div className='copy'>
       <h1>Volunteer with Us!</h1>
       <p>
         We appreciate your interest in volunteering. Please fill out the form
         below:
       </p>
+      </div>
       <VolunteerForm />
       <Footer />
     </div>

@@ -2,14 +2,27 @@ import React, { useState } from 'react';
 import { Button, Form, FormGroup, Label, Input, Container } from 'reactstrap';
 
 function NewsletterForm() {
-  const [email, setEmail] = useState('');
-
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    if (email) {
-      // Handle email submission logic here
-      console.log(`Email submitted: ${email}`);
-      setEmail('');
+
+    const formData = new FormData(e.target);
+    const data = {};
+    formData.forEach((value, key) => (data[key] = value));
+
+    const response = await fetch('./api/sendMail', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data),
+    });
+
+    if (response.status === 200) {
+      console.log('Email sent successfully');
+      window.location.href = "/thankyou";
+
+    } else {
+      console.error('Error sending email');
     }
   };
 
@@ -21,9 +34,7 @@ function NewsletterForm() {
           name="email"
           id="email"
           placeholder="Enter your email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          required
+        
         />
       </FormGroup>
       <Button type="submit" color="primary">

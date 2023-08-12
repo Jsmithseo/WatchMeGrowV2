@@ -23,12 +23,12 @@ function ProgramTiles() {
             <Card>
               <CardBody>
                 <CardTitle>Community Education & Awareness</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </CardText>
-                <Button>Button</Button>
+                <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>
@@ -36,12 +36,12 @@ function ProgramTiles() {
             <Card>
               <CardBody>
                 <CardTitle>Community Outreach & Community Engagement</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </CardText>
-                <Button>Button</Button>
+                <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>
@@ -50,12 +50,12 @@ function ProgramTiles() {
             <Card>
               <CardBody>
                 <CardTitle>Mentorship & Youth Development</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </CardText>
-                <Button>Button</Button>
+                <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>
@@ -64,12 +64,12 @@ function ProgramTiles() {
             <Card>
               <CardBody>
                 <CardTitle>Community Involvement & Beautification</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </CardText>
-                <Button>Button</Button>
+                <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>
@@ -79,12 +79,12 @@ function ProgramTiles() {
             <Card>
               <CardBody>
                 <CardTitle>Youth Civic Engagement</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </CardText>
-                <Button>Button</Button>
+                <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>
@@ -92,12 +92,12 @@ function ProgramTiles() {
             <Card>
               <CardBody>
                 <CardTitle>Meditation & Nutrition</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </CardText>
-                <Button>Button</Button>
+                <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>
@@ -106,12 +106,12 @@ function ProgramTiles() {
             <Card>
               <CardBody>
                 <CardTitle>Support Groups</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </CardText>
-                <Button>Button</Button>
+                <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>
@@ -120,12 +120,12 @@ function ProgramTiles() {
             <Card>
               <CardBody>
                 <CardTitle>Parent Education</CardTitle>
-                <CardSubtitle>Card subtitle</CardSubtitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
                 <CardText>
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </CardText>
-                <Button>Button</Button>
+                <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>

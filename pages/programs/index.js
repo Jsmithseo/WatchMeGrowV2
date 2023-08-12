@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import AboutTwoColumnLayout from '../components/AboutTwoColumnLayout';
 import Timeline from '../components/Timeline';
 import AboutSecondaryTwoColumnLayout from '../components/AboutSecondTwoColumnLayout';
-import AboutCenterAlignedButtons from '../components/AboutCenterAlignedButtons';
+import CenterAlignedButtons from '../components/CenterAlignedButtons';
 import AboutNewsletterForm from '../components/AboutNewsletterForm';
 import Footer from '../components/MainFooter';
 import ProgramBanner from '../components/ProgramBanner';
@@ -20,7 +20,7 @@ export default function Prgrams() {
       <Header />
       <ProgramBanner />
       <ProgramTiles />
-      <AboutCenterAlignedButtons />
+      <CenterAlignedButtons />
       <AboutNewsletterForm />
       <Footer />
     </div>

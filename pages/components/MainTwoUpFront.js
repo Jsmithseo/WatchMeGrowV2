@@ -26,9 +26,35 @@ const paraStyle = {
 
 function TwoColumnLayout() {
   return (
-    <div style={mainStyle}>
+    
+
+
+
+    <div>
+           <style jsx>
+        {`
+
+.Container {
+  margin-bottom: 2px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #F5F0EF;
+  
+  }
+          @media (max-width: 600px) {
+            .Container {
+              padding-top: 0px;
+
+            }
+          }
+
+     
+          
+        `}
+      </style>
+      <div className="Container">
       <Container>
-        <Row>``
+        <Row>
           <Col lg="6" md="12" sm="12" xs="12">
             <iframe
               width="560"
@@ -61,6 +87,7 @@ function TwoColumnLayout() {
           <Col md="4"></Col>
         </Row>
       </Container>
+      </div>
     </div>
   );
 }

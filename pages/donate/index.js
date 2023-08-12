@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import 'bootstrap/dist/css/bootstrap.css';
 import AboutCenterAlignedButtons from '../components/AboutCenterAlignedButtons';
-import AboutNewsletterForm from '../components/AboutNewsletterForm';
+import NewsletterForm from '../components/NewsletterForm';
 import Footer from '../components/MainFooter';
 import DonateBanner from '../components/DonateBanner';
 import DonatationTile from '../components/DonationTiles';
@@ -10,11 +10,33 @@ import { Container, Row, Col, Button } from 'reactstrap';
 
 export default function Donate() {
   return (
-    <div>
+    <div className="mainStyle">
+  <style jsx>
+
+    {`
+
+      .mainStyle {
+        overflow-x: hidden;
+      }
+
+      .copy {
+        text-align: center;
+        font-family: avenir;
+        padding-top: 50px;
+        font-size: 22px;
+        margin-right: 100px;
+        margin-left: 100px;
+  
+      }
+
+     
+      
+    `}
+  </style>
       <Header />
       <DonateBanner />
       <Col>
-        <div>
+        <div className="copy">
           Every day, with the help of supporters like you, we work tirelessly to
           make a lasting impact. Your generosity not only fuels our mission but
           also fosters a brighter future for those we serve.

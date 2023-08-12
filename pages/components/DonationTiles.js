@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
 import {
   Card,
   CardImg,
@@ -11,8 +12,7 @@ import {
 } from 'reactstrap';
 
 const MainStyle = {
-  marginTop: '100px',
-  marginBottom: '100px',
+
 };
 
 const paypal = {
@@ -40,23 +40,47 @@ const zelle = {
 };
 function ProgramTiles() {
   return (
-    <div style={MainStyle}>
+    <div className="mainStyle">
+      <style jsx>
+        {`
+    .mainStyle {
+      margin-top: 100px;
+      margin-buttom: 100px;
+    }
+  
+    .links {
+      color: #fff;
+    }
+          }
+          
+        `}
+      </style>
       <Container>
         <Row>
-          <Col md="3" sm="12" xs="12">
+          <Col md="4" sm="12" xs="12">
             <Card style={paypal}>
               <CardBody>
-                <CardTitle>Paypal</CardTitle>
+                <Link href="https://www.paypal.com/paypalme/watchmegrowinc?country.x=US&locale.x=en_US">
+                <CardTitle>
+                  <div className="links">Paypal</div>
+                  </CardTitle>
+                </Link>
+                
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
               </CardBody>
             </Card>
           </Col>
-          <Col md="3" sm="12" xs="12">
+          <Col md="4" sm="12" xs="12">
             <Card style={venmo}>
               <CardBody>
-                <CardTitle>Venmo</CardTitle>
+                <Link href="https://account.venmo.com/u/WatchMeGrowInc">
+                <CardTitle>
+                  <div className="links">Venmo</div>
+                  </CardTitle>
+                </Link>
+                
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
@@ -64,10 +88,15 @@ function ProgramTiles() {
             </Card>
           </Col>
 
-          <Col md="3" sm="12" xs="12">
+          <Col md="4" sm="12" xs="12">
             <Card style={cashapp}>
               <CardBody>
-                <CardTitle>Cash App</CardTitle>
+                <Link href="https://cash.app/$Jameelahhanif">
+                <CardTitle>
+                  <div className="links">Cash App</div>
+                  </CardTitle>
+                </Link>
+                
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
@@ -75,16 +104,21 @@ function ProgramTiles() {
             </Card>
           </Col>
 
-          <Col md="3" sm="12" xs="12">
+          {/* <Col md="3" sm="12" xs="12">
             <Card style={zelle}>
               <CardBody>
-                <CardTitle>Zelle</CardTitle>
-                {/* <CardSubtitle>Card subtitle</CardSubtitle>
+                <Link href="/">
+                <CardTitle>
+                  <div className="links">Zelle</div>
+                  </CardTitle>
+                </Link>
+               
+                <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button> */}
+          <Button>Button</Button>
               </CardBody>
             </Card>
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </div>

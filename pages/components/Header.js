@@ -18,20 +18,6 @@ function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => setIsOpen(!isOpen);
 
-  const navStyles = {
-    backgroundColor: '#C11B27',
-  };
-
-  const navLinks = {
-    font: 'avenir',
-    fontSize: '18px',
-    color: '#fff',
-    paddingRight: '25px',
-    paddingTop: '50px',
-    paddingLeft: '25px',
-    textDecoration: 'none',
-    fontFamily: 'avenir',
-  };
 
   const aboveNavStyles = {
     paddingTop: '30px',
@@ -50,10 +36,28 @@ function Header() {
     <div>
       <style jsx>
         {`
+
+          .mobileNav {
+            background-color: #C11B27;
+
+          }
+          
+          .navLinks {
+            font-size: 18px;
+            color: white;
+            padding-right: 25px;
+            padding-top: 20px;
+            padding-left: 25px;
+            text-decoration: none;
+            font-family: avenir;
+
+          }
+          
           @media (max-width: 1000px) {
             .mobileButton {
               display: none;
             }
+        
           }
           
         `}
@@ -88,35 +92,50 @@ function Header() {
         </Col>
       </Row>
       </span>
-      <Navbar style={navStyles} light expand="md">
+      <div className='mobileNav'>
+      <Navbar expand="md">
         <Col md={{ size: 12, offset: 3 }}>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <Link style={navLinks} href="/about/">
+               
+                <Link href="/about/">
+                <div className='navLinks'>
                   About
+                  </div>
                 </Link>
+            
               </NavItem>
               <NavItem>
-                <Link style={navLinks} href="/empower/">
+              <Link  href="/empower/">
+                <div className='navLinks'>
                   Empowering Families
+               
+                </div>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link style={navLinks} href="/involved/">
+              <Link href="/involved/">
+                <div className='navLinks'>
                   Get Involved
+                </div>
                 </Link>
               </NavItem>
               <NavItem>
-                <Link style={navLinks} href="/programs/">
+                
+                <Link href="/programs/">
+                <div className='navLinks'>
                   Programs
+                  </div>
                 </Link>
+               
               </NavItem>
             </Nav>
           </Collapse>
         </Col>
       </Navbar>
+      </div>
     </div>
   );
 }
