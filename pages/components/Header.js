@@ -100,7 +100,7 @@ function Header() {
             <Nav className="ml-auto" navbar>
             <NavItem>
                
-               <Link href="/home/">
+               <Link href="/">
                <div className='navLinks'>
                  Home 
                  </div>
