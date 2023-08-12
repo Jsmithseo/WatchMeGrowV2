@@ -23,12 +23,20 @@ const imageStyle = {
   borderRadius: '5%',
 };
 
+const photoStyle =  {
+  paddingTop: '5%',
+}
+
+const titleStyle = {
+  textAlign: "center"
+}
+
 function TwoColumnLayout() {
   return (
     <div style={mainStyle}>
       <Container>
         <Row>
-          <Col md={{ size: 2, offset: 2 }} sm="12" xs="12">
+          <Col md={{ size: 2, offset: 2 }} xs={{ size: 6, offset: 2 }}>
             <Image
               style={imageStyle}
               src={Jameelah}
@@ -37,9 +45,9 @@ function TwoColumnLayout() {
               height={350}
             />
           </Col>
-          <Col md={{ size: 6, offset: 1 }}>
-            <div>
-              <h3>About The Gardener</h3>
+          <Col md={{ size: 6, offset: 1 }} >
+            <div style={photoStyle}>
+              <h3 style={titleStyle}>About The Gardener</h3>
 
               <div>
                 Jameelah Hanif was born & raised in Oakland, Ca. She has been a
