@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import Logo from '../public/logo.png';
+import Name from '../public/logo_name.png';
 import {
   Col,
   Button,
@@ -37,10 +38,12 @@ function Header() {
       <style jsx>
         {`
 
+        
           .mobileNav {
             background-color: #C11B27;
 
           }
+
           
           .navLinks {
             font-size: 18px;
@@ -50,8 +53,9 @@ function Header() {
             padding-left: 25px;
             text-decoration: none;
             font-family: avenir;
-
           }
+
+          
           
           @media (max-width: 1000px) {
             .mobileButton {
@@ -66,12 +70,20 @@ function Header() {
 
       <Row>
         <Col md={{ size: 4, offset: 2 }}>
-          <Link href="/">
+          <Link  href="/">
             <Image
               src={Logo}
               alt="Description of Image"
               width={150}
               height={125}
+            />
+          </Link>
+          <Link href="/">
+          <Image
+              src={Name}
+              alt="Description of Image"
+              width={180}
+              height={50}
             />
           </Link>
         </Col>
@@ -100,7 +112,7 @@ function Header() {
             <Nav className="ml-auto" navbar>
             <NavItem>
                
-               <Link href="/">
+               <Link href="/" style={{ textDecoration: 'none' }}>
                <div className='navLinks'>
                  Home 
                  </div>
@@ -109,7 +121,7 @@ function Header() {
              </NavItem>
               <NavItem>
                
-                <Link href="/about/">
+                <Link href="/about/" style={{ textDecoration: 'none' }}>
                 <div className='navLinks'>
                   About
                   </div>
@@ -117,7 +129,7 @@ function Header() {
             
               </NavItem>
               <NavItem>
-              <Link  href="/empower/">
+              <Link  href="/empower/" style={{ textDecoration: 'none' }}>
                 <div className='navLinks'>
                   Empowering Families
                
@@ -125,7 +137,7 @@ function Header() {
                 </Link>
               </NavItem>
               <NavItem>
-              <Link href="/involved/">
+              <Link href="/involved/" style={{ textDecoration: 'none' }}>
                 <div className='navLinks'>
                   Get Involved
                 </div>
@@ -133,7 +145,7 @@ function Header() {
               </NavItem>
               <NavItem>
                 
-                <Link href="/programs/">
+                <Link href="/programs/" style={{ textDecoration: 'none' }}>
                 <div className='navLinks'>
                   Programs
                   </div>

@@ -22,7 +22,7 @@ function ProgramTiles() {
           <Col md="3" sm="12" xs="12">
             <Card>
               <CardBody>
-                <CardTitle>Haircuts</CardTitle>
+                <CardTitle>Education</CardTitle>
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
@@ -32,18 +32,7 @@ function ProgramTiles() {
           <Col md="3" sm="12" xs="12">
             <Card>
               <CardBody>
-                <CardTitle>Food </CardTitle>
-                {/* <CardSubtitle>Card subtitle</CardSubtitle>
-          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-          <Button>Button</Button> */}
-              </CardBody>
-            </Card>
-          </Col>
-
-          <Col md="3" sm="12" xs="12">
-            <Card>
-              <CardBody>
-                <CardTitle>Clothing </CardTitle>
+                <CardTitle>Rec</CardTitle>
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
@@ -54,7 +43,18 @@ function ProgramTiles() {
           <Col md="3" sm="12" xs="12">
             <Card>
               <CardBody>
-                <CardTitle>Housing & Rental Assistance </CardTitle>
+                <CardTitle>Mental Health</CardTitle>
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+          </Col>
+
+          <Col md="3" sm="12" xs="12">
+            <Card>
+              <CardBody>
+                <CardTitle>Youth Development</CardTitle>
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
@@ -66,7 +66,7 @@ function ProgramTiles() {
           <Col md="3" sm="12" xs="12">
             <Card>
               <CardBody>
-                <CardTitle>Therapy</CardTitle>
+                <CardTitle>Civic Engagement</CardTitle>
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
@@ -76,7 +76,7 @@ function ProgramTiles() {
           <Col md="3" sm="12" xs="12">
             <Card>
               <CardBody>
-                <CardTitle>Transportation </CardTitle>
+                <CardTitle>Senior Services </CardTitle>
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
@@ -87,7 +87,7 @@ function ProgramTiles() {
           <Col md="3" sm="12" xs="12">
             <Card>
               <CardBody>
-                <CardTitle>Mediation </CardTitle>
+                <CardTitle>Veterans </CardTitle>
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
@@ -98,7 +98,7 @@ function ProgramTiles() {
           <Col md="3" sm="12" xs="12">
             <Card>
               <CardBody>
-                <CardTitle>Parent Education</CardTitle>
+                <CardTitle>Basic Needs</CardTitle>
                 {/* <CardSubtitle>Card subtitle</CardSubtitle>
           <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
           <Button>Button</Button> */}
