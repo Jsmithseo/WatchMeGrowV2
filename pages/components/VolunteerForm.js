@@ -35,8 +35,13 @@ const VolunteerForm = () => {
       },
       body: JSON.stringify(formData),
     });
+    if (response.status === 200) {
+      console.log('Email sent successfully');
+      window.location.href = '/thankyou';
+    } else {
+      console.error('Error sending email');
+    }
 
-    console.log(response)
 
     setFormData({
       name: '',
