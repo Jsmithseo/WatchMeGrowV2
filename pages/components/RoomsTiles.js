@@ -11,7 +11,6 @@ import {
   Button,
 } from 'reactstrap';
 
-
 const green = {
   backgroundColor: '#008000',
   color: '#fff',
@@ -26,7 +25,7 @@ const orange = {
 
 const ElectricBlue = {
   backgroundColor: '#7df9ff',
-  color: '#fff',
+  color: '#000',
   textAlign: 'center',
 };
 
@@ -51,22 +50,17 @@ const white = {
 const black = {
   backgroundColor: '#000',
   textAlign: 'center',
-
-}
+};
 
 const yellow = {
   backgroundColor: '#FFFF00',
   textAlign: 'center',
-}
+};
 
 const gray = {
   backgroundColor: '#808080',
   textAlign: 'center',
-
-}
-
-
-
+};
 
 function ProgramTiles() {
   return (
@@ -82,7 +76,7 @@ function ProgramTiles() {
   
     .links {
       color: #fff;
-      text-decoration-line: none;
+      text-decoration: none;
     }
 
     .Blacklinks {
@@ -97,7 +91,10 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={green}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/J38RHHM6IY8W?ref_=list_d_wl_lfu_nav_4">
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.amazon.com/hz/wishlist/ls/J38RHHM6IY8W?ref_=list_d_wl_lfu_nav_4"
+                >
                   <CardTitle>
                     <div className="links">Green | Media/Photo</div>
                   </CardTitle>
@@ -113,7 +110,7 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={orange}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/3RFJ5SY6M0SQP?ref_=list_d_wl_lfu_nav_7">
+                <Link  style={{ textDecoration: 'none' }} href="https://www.amazon.com/hz/wishlist/ls/3RFJ5SY6M0SQP?ref_=list_d_wl_lfu_nav_7">
                   <CardTitle>
                     <div className="links">Orange | Tech/Dance</div>
                   </CardTitle>
@@ -130,9 +127,12 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={ElectricBlue}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/2X2R0RMS7KQJ8?ref_=list_d_wl_lfu_nav_5">
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.amazon.com/hz/wishlist/ls/2X2R0RMS7KQJ8?ref_=list_d_wl_lfu_nav_5"
+                >
                   <CardTitle>
-                    <div className="links">
+                    <div className="Blacklinks">
                       Electric Blue | Music/Creative Writing
                     </div>
                   </CardTitle>
@@ -148,7 +148,10 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={skyBlue}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/1UPGO73JZZ33W/ref=nav_wishlist_lists_1">
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.amazon.com/hz/wishlist/ls/1UPGO73JZZ33W/ref=nav_wishlist_lists_1"
+                >
                   <CardTitle>
                     <div className="links">Sky Blue | Zen</div>
                   </CardTitle>
@@ -164,10 +167,11 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={purple}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/OK3BJNZXYRKS?ref_=list_d_wl_lfu_nav_7">
-                  <CardTitle>
-                    <div className="links">Office | </div>
-                  </CardTitle>
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.amazon.com/hz/wishlist/ls/OK3BJNZXYRKS?ref_=list_d_wl_lfu_nav_7"
+                >
+                  <div className="links">Office</div>
                 </Link>
                 {/*                
                 <CardSubtitle>Card subtitle</CardSubtitle>
@@ -180,7 +184,10 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={black}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/30WO1EGBOF58L?ref_=list_d_wl_lfu_nav_2">
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.amazon.com/hz/wishlist/ls/30WO1EGBOF58L?ref_=list_d_wl_lfu_nav_2"
+                >
                   <CardTitle>
                     <div className="links">Multi-color | Game Room</div>
                   </CardTitle>
@@ -196,9 +203,14 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={white}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/2HS7UFS2XVCV3?ref_=wl_dp_view_your_list">
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.amazon.com/hz/wishlist/ls/2HS7UFS2XVCV3?ref_=wl_dp_view_your_list"
+                >
                   <CardTitle>
-                    <div className="Blacklinks">White | Conference Tutoring</div>
+                    <div className="Blacklinks">
+                      White | Conference Tutoring
+                    </div>
                   </CardTitle>
                 </Link>
                 {/*                
@@ -211,7 +223,10 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={yellow}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/2IQU6NOKH5BD2?ref_=list_d_wl_lfu_nav_1">
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.amazon.com/hz/wishlist/ls/2IQU6NOKH5BD2?ref_=list_d_wl_lfu_nav_1"
+                >
                   <CardTitle>
                     <div className="Blacklinks">Yellow | Bathroom</div>
                   </CardTitle>
@@ -226,7 +241,10 @@ function ProgramTiles() {
           <Col md="4" sm="12" xs="12">
             <Card style={gray}>
               <CardBody>
-                <Link href="https://www.amazon.com/hz/wishlist/ls/KAX6LQ4OQ49N?ref_=list_d_wl_lfu_nav_4">
+                <Link
+                  style={{ textDecoration: 'none' }}
+                  href="https://www.amazon.com/hz/wishlist/ls/KAX6LQ4OQ49N?ref_=list_d_wl_lfu_nav_4"
+                >
                   <CardTitle>
                     <div className="links">Kitchen</div>
                   </CardTitle>
