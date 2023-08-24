@@ -23,17 +23,28 @@ const VolunteerForm = () => {
     setFormData((prevState) => ({ ...prevState, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // Handle form submission logic here
     console.log(`Form submitted:`, formData);
-    setFormData({
-      name: '',
-      email: '',
-      phone: '',
-      interest: '',
-      description: '',
+
+    const response = await fetch('./api/sendMailVolunteer', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(formData),
     });
+
+    console.log(response)
+
+    // setFormData({
+    //   name: '',
+    //   email: '',
+    //   phone: '',
+    //   interest: '',
+    //   description: '',
+    // });
   };
 
   const MainStyles = {
