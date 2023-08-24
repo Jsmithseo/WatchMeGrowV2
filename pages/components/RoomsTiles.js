@@ -1,0 +1,247 @@
+import React from 'react';
+import { Container, Row, Col } from 'reactstrap';
+import Link from 'next/link';
+import {
+  Card,
+  CardImg,
+  CardText,
+  CardBody,
+  CardTitle,
+  CardSubtitle,
+  Button,
+} from 'reactstrap';
+
+
+const green = {
+  backgroundColor: '#008000',
+  color: '#fff',
+  textAlign: 'center',
+};
+
+const orange = {
+  backgroundColor: '#FFA500',
+  color: '#fff',
+  textAlign: 'center',
+};
+
+const ElectricBlue = {
+  backgroundColor: '#7df9ff',
+  color: '#fff',
+  textAlign: 'center',
+};
+
+const skyBlue = {
+  backgroundColor: '#87CEEB',
+  color: '#fff',
+  textAlign: 'center',
+};
+
+const purple = {
+  backgroundColor: '#800080',
+  color: '#fff',
+  textAlign: 'center',
+};
+
+const white = {
+  backgroundColor: '#fff',
+  color: '#fff',
+  textAlign: 'center',
+};
+
+const black = {
+  backgroundColor: '#000',
+  textAlign: 'center',
+
+}
+
+const yellow = {
+  backgroundColor: '#FFFF00',
+  textAlign: 'center',
+}
+
+const gray = {
+  backgroundColor: '#808080',
+  textAlign: 'center',
+
+}
+
+
+
+
+function ProgramTiles() {
+  return (
+    <div className="mainStyle">
+      <style jsx>
+        {`
+    .mainStyle {
+      margin-top: 100px;
+      margin-buttom: 100px;
+      padding-bottom: 100px;
+      justify-content: space-between;
+    }
+  
+    .links {
+      color: #fff;
+      text-decoration-line: none;
+    }
+
+    .Blacklinks {
+      color: #000;
+    }
+          }
+          
+        `}
+      </style>
+      <Container>
+        <Row>
+          <Col md="4" sm="12" xs="12">
+            <Card style={green}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/J38RHHM6IY8W?ref_=list_d_wl_lfu_nav_4">
+                  <CardTitle>
+                    <div className="links">Green | Media/Photo</div>
+                  </CardTitle>
+                </Link>
+
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+            <br></br>
+          </Col>
+          <Col md="4" sm="12" xs="12">
+            <Card style={orange}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/3RFJ5SY6M0SQP?ref_=list_d_wl_lfu_nav_7">
+                  <CardTitle>
+                    <div className="links">Orange | Tech/Dance</div>
+                  </CardTitle>
+                </Link>
+
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+            <br></br>
+          </Col>
+
+          <Col md="4" sm="12" xs="12">
+            <Card style={ElectricBlue}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/2X2R0RMS7KQJ8?ref_=list_d_wl_lfu_nav_5">
+                  <CardTitle>
+                    <div className="links">
+                      Electric Blue | Music/Creative Writing
+                    </div>
+                  </CardTitle>
+                </Link>
+
+                {/* <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+            <br></br>
+          </Col>
+          <Col md="4" sm="12" xs="12">
+            <Card style={skyBlue}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/1UPGO73JZZ33W/ref=nav_wishlist_lists_1">
+                  <CardTitle>
+                    <div className="links">Sky Blue | Zen</div>
+                  </CardTitle>
+                </Link>
+                {/*                
+                <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+            <br></br>
+          </Col>
+          <Col md="4" sm="12" xs="12">
+            <Card style={purple}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/OK3BJNZXYRKS?ref_=list_d_wl_lfu_nav_7">
+                  <CardTitle>
+                    <div className="links">Office | </div>
+                  </CardTitle>
+                </Link>
+                {/*                
+                <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+            <br></br>
+          </Col>
+          <Col md="4" sm="12" xs="12">
+            <Card style={black}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/30WO1EGBOF58L?ref_=list_d_wl_lfu_nav_2">
+                  <CardTitle>
+                    <div className="links">Multi-color | Game Room</div>
+                  </CardTitle>
+                </Link>
+                {/*                
+                <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+            <br></br>
+          </Col>
+          <Col md="4" sm="12" xs="12">
+            <Card style={white}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/2HS7UFS2XVCV3?ref_=wl_dp_view_your_list">
+                  <CardTitle>
+                    <div className="Blacklinks">White | Conference Tutoring</div>
+                  </CardTitle>
+                </Link>
+                {/*                
+                <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+          </Col>
+          <Col md="4" sm="12" xs="12">
+            <Card style={yellow}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/2IQU6NOKH5BD2?ref_=list_d_wl_lfu_nav_1">
+                  <CardTitle>
+                    <div className="Blacklinks">Yellow | Bathroom</div>
+                  </CardTitle>
+                </Link>
+                {/*                
+                <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+          </Col>
+          <Col md="4" sm="12" xs="12">
+            <Card style={gray}>
+              <CardBody>
+                <Link href="https://www.amazon.com/hz/wishlist/ls/KAX6LQ4OQ49N?ref_=list_d_wl_lfu_nav_4">
+                  <CardTitle>
+                    <div className="links">Kitchen</div>
+                  </CardTitle>
+                </Link>
+                {/*                
+                <CardSubtitle>Card subtitle</CardSubtitle>
+          <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
+          <Button>Button</Button> */}
+              </CardBody>
+            </Card>
+          </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+}
+
+export default ProgramTiles;
