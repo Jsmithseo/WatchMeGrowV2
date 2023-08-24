@@ -38,13 +38,13 @@ const VolunteerForm = () => {
 
     console.log(response)
 
-    // setFormData({
-    //   name: '',
-    //   email: '',
-    //   phone: '',
-    //   interest: '',
-    //   description: '',
-    // });
+    setFormData({
+      name: '',
+      email: '',
+      phone: '',
+      interest: '',
+      description: '',
+    });
   };
 
   const MainStyles = {
