@@ -35,8 +35,8 @@ const skyBlue = {
   textAlign: 'center',
 };
 
-const purple = {
-  backgroundColor: '#800080',
+const Pink = {
+  backgroundColor: '#FFC0CB',
   color: '#fff',
   textAlign: 'center',
 };
@@ -165,13 +165,13 @@ function ProgramTiles() {
             <br></br>
           </Col>
           <Col md="4" sm="12" xs="12">
-            <Card style={purple}>
+            <Card style={Pink}>
               <CardBody>
                 <Link
                   style={{ textDecoration: 'none' }}
                   href="https://www.amazon.com/hz/wishlist/ls/OK3BJNZXYRKS?ref_=list_d_wl_lfu_nav_7"
                 >
-                  <div className="links">Office</div>
+                  <div className="links"> Pink | Office</div>
                 </Link>
                 {/*                
                 <CardSubtitle>Card subtitle</CardSubtitle>
@@ -219,6 +219,7 @@ function ProgramTiles() {
           <Button>Button</Button> */}
               </CardBody>
             </Card>
+            <br></br>
           </Col>
           <Col md="4" sm="12" xs="12">
             <Card style={yellow}>
@@ -237,6 +238,7 @@ function ProgramTiles() {
           <Button>Button</Button> */}
               </CardBody>
             </Card>
+            <br></br>
           </Col>
           <Col md="4" sm="12" xs="12">
             <Card style={gray}>
@@ -255,6 +257,7 @@ function ProgramTiles() {
           <Button>Button</Button> */}
               </CardBody>
             </Card>
+            <br></br>
           </Col>
         </Row>
       </Container>
