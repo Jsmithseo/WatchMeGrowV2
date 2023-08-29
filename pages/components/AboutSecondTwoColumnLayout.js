@@ -50,9 +50,10 @@ function TwoColumnLayout() {
               <h3 style={titleStyle}>About The Gardener</h3>
 
               <div>
+                
                 Jameelah Hanif was born & raised in Oakland, Ca. She has been a
                 resident of Vallejo since 2001. She is a single mother of her
-                amazing 10 year old son, Brandon Johnson. ameelah Hanif has
+                amazing 10 year old son, Brandon Johnson. Jameelah Hanif has
                 always been inspired to one day open Watch Me Grow Community
                 Development Center, where her organization will provide quality
                 child care program during the day, an after school program for
