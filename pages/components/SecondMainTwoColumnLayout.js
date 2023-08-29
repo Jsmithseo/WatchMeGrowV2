@@ -1,8 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
-import Image from 'next/image';
-import families from '../public/families.jpg';
-import youth from '../public/youth.jpg';
+
 
 const buttonStyle = {
   align: 'center',
