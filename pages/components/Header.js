@@ -98,9 +98,11 @@ function Header() {
               Donate Now
             </Button>
           </Link>
+          <Link href="/news"> 
           <Button className="mobileButton" style={buttonStyle2} size="lg">
             Join Newsletter
           </Button>{' '}
+          </Link>
         </Col>
       </Row>
       </span>
