@@ -131,8 +131,7 @@ function Header() {
               <NavItem>
               <Link  href="/empower/" style={{ textDecoration: 'none' }}>
                 <div className='navLinks'>
-                  Empowering Families
-               
+                  Resources               
                 </div>
                 </Link>
               </NavItem>
@@ -147,7 +146,7 @@ function Header() {
                 
                 <Link href="/programs/" style={{ textDecoration: 'none' }}>
                 <div className='navLinks'>
-                  Programs
+                  Events & Programs
                   </div>
                 </Link>
                
