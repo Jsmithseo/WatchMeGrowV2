@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
 import YouTube from './Video1';
+import Link from 'next/link';
 
 const mainStyle = {
   marginBottom: '2px',
   paddingTop: '50px',
-  paddingBottom: '50px',
   backgroundColor: '#F5F0EF',
 };
 const buttonStyle = {
@@ -30,8 +30,8 @@ function TwoColumnLayout() {
 
 .Container {
   margin-bottom: 2px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background-color: #F5F0EF;
   
   }
@@ -89,12 +89,11 @@ function TwoColumnLayout() {
               agencies and private organizations, our center is poised to offer
               a suite of services, from job placements to mental health support.
               Join us in our mission to pave a brighter, informed future for the
-              youth of Vallejo!
+              youth of Vallejo! 
+              <br></br>
+              <Link href='/rooms'> Sponsor a Room</Link>
             </p>
           </Col>
-        </Row>
-        <Row className="justify-content-center">
-          <Col md="4"></Col>
         </Row>
       </Container>
       </div>
