@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
-
+import AboutCenterAlignedButtons from './AboutCenterAlignedButtons';
 
 const buttonStyle = {
   align: 'center',
@@ -64,6 +64,7 @@ const SecondMainTwoColumnLayout = () => {
             </p>
           </Col>
         </Row>
+        <AboutCenterAlignedButtons/>
       </Container>
     </div>
   );
