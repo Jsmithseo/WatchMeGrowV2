@@ -17,8 +17,8 @@ const ThreeColumnLayout = () => {
 
   const mainStyles = {
     backgroundColor: '#C11C27',
-    paddingTop: '40pxpx',
-    paddingBottom: '40px',
+    paddingTop: '50px',
+    paddingBottom: '50px',
     color: '#fff',
   };
 
