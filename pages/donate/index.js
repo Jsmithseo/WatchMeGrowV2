@@ -53,8 +53,8 @@ export default function Donate() {
           also fosters a brighter future for those we serve.
         </div>
       </Col>
-      <DonatationTile />
       <AboutCenterAlignedButtons/>
+      <DonatationTile />
       <Footer />
     </div>
   );
