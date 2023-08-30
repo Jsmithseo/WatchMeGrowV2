@@ -7,7 +7,7 @@ import Footer from '../components/MainFooter';
 import DonateBanner from '../components/DonateBanner';
 import DonatationTile from '../components/DonationTiles';
 import { Container, Row, Col, Button } from 'reactstrap';
-import OneTimePayments from '../components/oneTimePayments';
+
 export default function Donate() {
   return (
     <div className="mainStyle">
