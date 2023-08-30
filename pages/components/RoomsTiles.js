@@ -68,9 +68,9 @@ function ProgramTiles() {
       <style jsx>
         {`
     .mainStyle {
-      margin-top: 100px;
-      margin-buttom: 100px;
-      padding-bottom: 100px;
+      margin-top: 40px;
+      margin-buttom: 50px;
+      padding-bottom: 50px;
       justify-content: space-between;
     }
   
