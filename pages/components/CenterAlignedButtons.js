@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Link from 'next/link';
 
 const mainStyle = {
-  paddingTop: '100px',
-  paddingBottom: '100px',
+  paddingTop: '40px',
+  paddingBottom: '40px',
 };
 
 const firstButton = {
