@@ -35,7 +35,6 @@ function AboutCenterAlignedButtons() {
         <div className="text-center">
           <h2>Your gift today can help change a child’s future.</h2>
         </div>
-        <br></br>
         <Row className="justify-content-center">
           <Col md="auto" sm="2" xs="2">
             
