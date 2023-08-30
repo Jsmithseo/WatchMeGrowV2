@@ -54,6 +54,7 @@ export default function Donate() {
         </div>
       </Col>
       <DonatationTile />
+      <AboutCenterAlignedButtons/>
       <Footer />
     </div>
   );
