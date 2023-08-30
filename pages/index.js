@@ -8,6 +8,7 @@ import CenterAlignedButtons from './components/CenterAlignedButtons';
 import ThreeColumnLayout from './components/ThreeColumnLayout';
 import SecondMainTwoColumnLayout from './components/SecondMainTwoColumnLayout';
 import MainFourColumnLayout from './components/MainFourColumnLayout';
+import AboutCenterAlignedButtons from './components/AboutCenterAlignedButtons';
 
 export default function Index() {
   const MainStyle = {
