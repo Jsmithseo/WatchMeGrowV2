@@ -7,7 +7,6 @@ import Footer from '../components/MainFooter';
 import DonateBanner from '../components/DonateBanner';
 import DonatationTile from '../components/DonationTiles';
 import { Container, Row, Col, Button } from 'reactstrap';
-import { loadStripe } from '@stripe/stripe-js';
 
 
 export default function Donate() {
