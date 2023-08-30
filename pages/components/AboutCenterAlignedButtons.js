@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Button } from 'reactstrap';
+import Link from 'next/link';
 
 const mainStyle = {
   marginTop: '10px',
@@ -32,37 +33,58 @@ function AboutCenterAlignedButtons() {
     <div style={mainStyle}>
       <Container>
         <div className="text-center">
-          <p>
-            7.7 million kids and teens are alone and unsupervised after school
-            while nearly 25 million don't have access to after-school programs.
-          </p>
           <h2>Your gift today can help change a child’s future.</h2>
         </div>
         <Row className="justify-content-center">
-          <Col md="auto">
+          <Col md="auto" sm="2" xs="2">
+            
             <Button style={firstButton} className="mx-2">
+            <Link href="https://buy.stripe.com/9AQcNj3KD0pY0Bq9AA" style={{ textDecoration: 'none' }}>
               $25
+              </Link>
             </Button>
+           
+
           </Col>
-          <Col md="auto">
+          <Col md="auto" sm="2" xs="2">
+            
             <Button style={secondButton} className="mx-2">
+            <Link href="https://buy.stripe.com/6oEdRn0yra0y3NC3cd" style={{ textDecoration: 'none' }}>
               $50
+              </Link>
             </Button>
+            
+
           </Col>
-          <Col md="auto">
-            <Button style={thirdButton} className="mx-2">
-              $100
-            </Button>
+          <Col md="auto" sm="2" xs="2">
+            
+              <Button style={thirdButton} className="mx-2">
+              <Link href="https://buy.stripe.com/9AQ5kReph3CafwkdQS" style={{ textDecoration: 'none' }}>
+                $100
+                </Link>
+              </Button>
+            
+   
           </Col>
-          <Col md="auto">
-            <Button style={fourthButton} className="mx-2">
-              $250
-            </Button>
+          <Col md="auto" sm="2" xs="2">
+            
+              <Button style={fourthButton} className="mx-2">
+              <Link href="https://buy.stripe.com/4gwaFb3KDc8Gdoc6or" style={{ textDecoration: 'none' }}>
+                $250
+                </Link>
+              </Button>
+            
+
           </Col>
-          <Col md="auto">
-            <Button style={fifthButton} className="mx-2">
-              $500
-            </Button>
+          <Col md="auto" sm="2" xs="2">
+            
+              <Button style={fifthButton} className="mx-2">
+              <Link href="https://buy.stripe.com/00g3cJgxp3Ca1Fu3cg" style={{ textDecoration: 'none' }}>
+                $500
+                </Link>
+              </Button>
+           
+  
           </Col>
         </Row>
       </Container>
