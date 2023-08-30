@@ -14,7 +14,6 @@ import Image from 'next/image';
 
 const mainStyle = {
   paddingBottom: '50px',
-  paddingTop: '50px',
   backgroundColor: '#F5F0EF',
   fontFamily: 'avenir',
 };
@@ -37,18 +36,27 @@ function TwoColumnLayout() {
       <Container>
         <Row>
           <Col md={{ size: 2, offset: 2 }} xs={{ size: 6, offset: 2 }}>
-            <Image
+            {/* <Image
               style={imageStyle}
               src={Jameelah}
               alt="Description of Image"
               width={300}
-              height={350}
-            />
+              height={300}
+            /> */}
           </Col>
-          <Col md={{ size: 6, offset: 1 }} >
+          <Col md="12">
             <div style={photoStyle}>
               <h3 style={titleStyle}>About The Gardener</h3>
-
+              <center style={{ paddingTop: '30px', paddingBottom: '30px'}}>
+              <Image
+              style={imageStyle}
+              src={Jameelah}
+              alt="Description of Image"
+              width={300}
+              height={300}
+            />
+              </center>
+           
               <div>
                 
                 Jameelah Hanif was born & raised in Oakland, Ca. She has been a
