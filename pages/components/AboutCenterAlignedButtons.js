@@ -35,56 +35,57 @@ function AboutCenterAlignedButtons() {
         <div className="text-center">
           <h2>Your gift today can help change a child’s future.</h2>
         </div>
+        <br></br>
         <Row className="justify-content-center">
           <Col md="auto" sm="2" xs="2">
-            
             <Button style={firstButton} className="mx-2">
-            <Link href="https://buy.stripe.com/9AQcNj3KD0pY0Bq9AA" style={{ textDecoration: 'none' ,  color: 'black'}}>
-              $25
+              <Link
+                href="https://buy.stripe.com/9AQcNj3KD0pY0Bq9AA"
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
+                $25
               </Link>
             </Button>
-           
-
           </Col>
           <Col md="auto" sm="2" xs="2">
-            
             <Button style={secondButton} className="mx-2">
-            <Link  href="https://buy.stripe.com/6oEdRn0yra0y3NC3cd" style={{ textDecoration: 'none', color: 'black' }}>
-              $50
+              <Link
+                href="https://buy.stripe.com/6oEdRn0yra0y3NC3cd"
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
+                $50
               </Link>
             </Button>
-            
-
           </Col>
           <Col md="auto" sm="2" xs="2">
-            
-              <Button style={thirdButton} className="mx-2">
-              <Link href="https://buy.stripe.com/9AQ5kReph3CafwkdQS" style={{ textDecoration: 'none',  color: 'black' }}>
+            <Button style={thirdButton} className="mx-2">
+              <Link
+                href="https://buy.stripe.com/9AQ5kReph3CafwkdQS"
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
                 $100
-                </Link>
-              </Button>
-            
-   
+              </Link>
+            </Button>
           </Col>
           <Col md="auto" sm="2" xs="2">
-            
-              <Button style={fourthButton} className="mx-2">
-              <Link href="https://buy.stripe.com/4gwaFb3KDc8Gdoc6or" style={{ textDecoration: 'none',  color: 'black' }}>
+            <Button style={fourthButton} className="mx-2">
+              <Link
+                href="https://buy.stripe.com/4gwaFb3KDc8Gdoc6or"
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
                 $250
-                </Link>
-              </Button>
-            
-
+              </Link>
+            </Button>
           </Col>
           <Col md="auto" sm="2" xs="2">
-            
-              <Button style={fifthButton} className="mx-2">
-              <Link href="https://buy.stripe.com/00g3cJgxp3Ca1Fu3cg" style={{ textDecoration: 'none',  color: 'black' }}>
+            <Button style={fifthButton} className="mx-2">
+              <Link
+                href="https://buy.stripe.com/00g3cJgxp3Ca1Fu3cg"
+                style={{ textDecoration: 'none', color: 'black' }}
+              >
                 $500
-                </Link>
-              </Button>
-           
-  
+              </Link>
+            </Button>
           </Col>
         </Row>
       </Container>
