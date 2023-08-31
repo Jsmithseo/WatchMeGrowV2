@@ -33,7 +33,7 @@ function MainFooter() {
               Privacy Policy | &nbsp;
             </Link>
               <Link href="/contact" style={{ textDecoration: 'none' }}>
-              Contact Us
+              Contact Us | &nbsp;
             </Link>
             <Link href="https://www.facebook.com/watchmegrowinc707/" style={{ textDecoration: 'none' }}>
               Facebook | &nbsp;
