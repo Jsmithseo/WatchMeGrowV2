@@ -9,6 +9,7 @@ import ThreeColumnLayout from './components/ThreeColumnLayout';
 import SecondMainTwoColumnLayout from './components/SecondMainTwoColumnLayout';
 import MainFourColumnLayout from './components/MainFourColumnLayout';
 import AboutCenterAlignedButtons from './components/AboutCenterAlignedButtons';
+import Popup from './components/Popup'
 
 export default function Index() {
   const MainStyle = {
@@ -16,6 +17,7 @@ export default function Index() {
   };
   return (
     <div style={MainStyle}>
+      
       <Header />
       <Banner />
       <MainTwoUpFront />
@@ -24,6 +26,7 @@ export default function Index() {
       <SecondMainTwoColumnLayout />
       <MainFourColumnLayout />
       <MainFooter />
+      <Popup/>
     </div>
   );
 }
