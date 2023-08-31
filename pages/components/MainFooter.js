@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
@@ -19,9 +20,22 @@ function MainFooter() {
     <footer style={footerStyle} className="government-footer">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
-            <p>&copy; 2023 Watch Me Grow Inc</p>
-          </div>
+          <Col>
+            The Official Site of Watch Me Grow &copy; Watch Me Grow. All Rights
+            Reserved. WMG is a 501(c)3 (nonprofit) organization and donations
+            are tax deductible.
+          </Col>
+          <Col md="6">
+            {/* <Link href="" style={{ textDecoration: 'none' }}>
+              Donor Privacy | &nbsp;
+            </Link> */}
+            <Link href="/privacy" style={{ textDecoration: 'none' }}>
+              Privacy Policy | &nbsp;
+            </Link>
+              <Link href="/contact" style={{ textDecoration: 'none' }}>
+              Contact Us
+            </Link>
+          </Col>
         </div>
       </div>
     </footer>
