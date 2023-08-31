@@ -18,9 +18,7 @@ export default async (req, res) => {
         from: email,
         to: 'Jeremysmithseo@gmail.com',
         subject: `New contact from ${email}`,
-        text: email,
-        text: name,
-        text: message,
+        text: `${email} ${name} ${message}`,
       });
 
       return res.status(200).send({ done: true });
