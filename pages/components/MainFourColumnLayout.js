@@ -21,28 +21,12 @@ function FourColumnLayout() {
     <div style={mainStyle}>
       <Container>
         <Row className="text-center">
-          <Col md="8">
+          <Col md="12">
             <div className="first-column">
               {/* Content for the first column goes here */}
               <h2>Join Our Newsletter</h2>
               <NewsletterForm />
             </div>
-          </Col>
-          <Col md="2" style={NavStyle}>
-            <Link href="/about">About Us</Link>
-            <Link href="/programs">Programs</Link>
-            <Link href="/empower">Empowering Families</Link>
-          </Col>
-          <Col md="2" style={NavStyle}>
-            <Link href="https://www.facebook.com/watchmegrowinc707/">
-              Facebook
-            </Link>
-            <Link href="https://www.instagram.com/p/Cg2hkZfBzV8/?igshid=NmZiMzY2Mjc%3D">
-              Instagram
-            </Link>
-            <Link href="https://www.tiktok.com/@watchmegrowinc?_t=8UajWqmZ9Cw&_r=1">
-              Tik Tok
-            </Link>
           </Col>
         </Row>
       </Container>

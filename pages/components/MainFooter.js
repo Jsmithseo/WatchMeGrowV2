@@ -35,6 +35,12 @@ function MainFooter() {
               <Link href="/contact" style={{ textDecoration: 'none' }}>
               Contact Us
             </Link>
+            <Link href="https://www.facebook.com/watchmegrowinc707/" style={{ textDecoration: 'none' }}>
+              Facebook | &nbsp;
+            </Link>
+            <Link href="https://www.instagram.com/p/Cg2hkZfBzV8/?igshid=NmZiMzY2Mjc%3D" style={{ textDecoration: 'none' }}>
+              Instagram
+            </Link>
           </Col>
         </div>
       </div>
