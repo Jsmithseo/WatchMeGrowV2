@@ -90,6 +90,7 @@ function AboutCenterAlignedButtons() {
                     $25
                   </Link>
                 </Button>
+                <div>&#x20;</div>
               </Col>
               <Col md="auto" sm="2" xs="2">
                 <Button style={secondButton} className="mx-2">
@@ -100,6 +101,7 @@ function AboutCenterAlignedButtons() {
                     $50
                   </Link>
                 </Button>
+                <div>&#x20;</div>
               </Col>
               <Col md="auto" sm="2" xs="2">
                 <Button style={thirdButton} className="mx-2">
@@ -110,6 +112,7 @@ function AboutCenterAlignedButtons() {
                     $100
                   </Link>
                 </Button>
+                <div>&#x20;</div>
               </Col>
               <Col md="auto" sm="2" xs="2">
                 <Button style={fourthButton} className="mx-2">
@@ -119,6 +122,7 @@ function AboutCenterAlignedButtons() {
                   >
                     $250
                   </Link>
+                  <div>&#x20;</div>
                 </Button>
               </Col>
               <Col md="auto" sm="2" xs="2">
@@ -129,6 +133,7 @@ function AboutCenterAlignedButtons() {
                   >
                     $500
                   </Link>
+                  <div>&#x20;</div>
                 </Button>
               </Col>
             </Row>
@@ -144,12 +149,13 @@ function AboutCenterAlignedButtons() {
                     $25 /month
                   </Link>
                 </Button>
+               
               </Col>
               <Col md="auto" sm="2" xs="2">
                 <Button style={secondButton} className="mx-2">
                   <Link
                     href="https://buy.stripe.com/00geVrdlda0y5VKfZ4"
-                    style={{ textDecoration: 'none', color: 'black', paddingLeft:'5px' }}
+                    style={{ textDecoration: 'none', color: 'black'}}
                   >
                     $50 /month
                   </Link>
@@ -159,7 +165,7 @@ function AboutCenterAlignedButtons() {
                 <Button style={thirdButton} className="mx-2">
                   <Link
                     href="https://buy.stripe.com/5kAaFb80T4GegAobIP"
-                    style={{ textDecoration: 'none', color: 'black',  paddingLeft:'5px' }}
+                    style={{ textDecoration: 'none', color: 'black', }}
                   >
                     $100 /month
                   </Link>
