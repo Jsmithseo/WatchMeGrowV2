@@ -20,7 +20,6 @@ export default function Rooms() {
           .copy {
             text-align: center;
             font-family: avenir;
-            padding-top: 50px;
             font-size: 22px;
             margin-right: 100px;
             margin-left: 100px;
@@ -45,14 +44,18 @@ export default function Rooms() {
       <Header />
       <RoomsBanner />
       <Col>
-       <Container>
-        <div className="supportingCopy">
-          <h2>How It Works:</h2>
-          <div className="copy">
-          Each room at our center has its own unique color theme. We invite you to explore our Amazon Wishlist for the specific room(s) you're interested in sponsoring. Your purchase will make a significant contribution to the operation of the Watch Me Grow Community Center.
+        <Container>
+          <div className="supportingCopy">
+            <h2>How It Works:</h2>
+            <div className="copy">
+              Each room at our center has its own unique color theme. We invite
+              you to explore our Amazon Wishlist for the specific room(s) you're
+              interested in sponsoring. Your purchase will make a significant
+              contribution to the operation of the Watch Me Grow Community
+              Center.
+            </div>
+            <br></br>
           </div>
-          <br></br>
-        </div>
         </Container>
       </Col>
       <RoomsTile />
