@@ -21,7 +21,7 @@ function MainFooter() {
       <div className="container">
         <div className="row">
           <Col>
-            The Official Site of Watch Me Grow &copy; Watch Me Grow. All Rights
+            The Official Site of Watch Me Grow  Inc&copy; All Rights
             Reserved. WMG is a 501(c)3 (nonprofit) organization and donations
             are tax deductible.
           </Col>
