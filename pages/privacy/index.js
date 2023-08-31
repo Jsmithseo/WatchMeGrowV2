@@ -36,12 +36,12 @@ export default function Privacy() {
         </center>
         <div className="copy">
           This website is operated by Watch Me Grow Inc, a 501(c)(3) non-profit
-          organization with its main office located at 1218 Monterey St Vallejo, CA 94590. This
-          Privacy Policy pertains to the personal data collected when you visit
-          our website, make a donation, register for an event, subscribe to our
-          newsletter, or otherwise provide us with information through
-          www.watchmegrowinc.com or any other domains controlled by Watch Me
-          Grow Inc ("the Website").
+          organization with its main office located at 1218 Monterey St Vallejo,
+          CA 94590. This Privacy Policy pertains to the personal data collected
+          when you visit our website, make a donation, register for an event,
+          subscribe to our newsletter, or otherwise provide us with information
+          through www.watchmegrowinc.com or any other domains controlled by
+          Watch Me Grow Inc ("the Website").
         </div>
         <div className="copy">
           We prioritize the privacy of our visitors and employ rigorous measures
@@ -96,7 +96,8 @@ export default function Privacy() {
           tasks on our behalf, like financial institutions that process our
           credit card transactions. Your information may also be shared with
           other reputable non-profit organizations on a limited basis. If you
-          wish to be excluded from such activities, please contact us at Jameelah@watchmegrowinc.com
+          wish to be excluded from such activities, please contact us at
+          Jameelah@watchmegrowinc.com
         </div>
         <center>
           <h2>Data Integrity and Security</h2>
@@ -111,10 +112,10 @@ export default function Privacy() {
         </center>
         <div className="copy">You always have the right to:</div>
         <center>
-        <li>Access your personal information</li>
-        <li>Review your data</li>
-        <li>Opt-out of communications</li>
-        <li>Request data erasure</li>
+          <li>Access your personal information</li>
+          <li>Review your data</li>
+          <li>Opt-out of communications</li>
+          <li>Request data erasure</li>
         </center>
         <div className="copy">
           Please direct your questions or requests to
@@ -137,7 +138,7 @@ export default function Privacy() {
           <br></br>
           <ul>Watch Me Grow Inc</ul>
           <ul>Attn: Legal Department</ul>
-          <ul>1218 Monterey StVallejo, CA 94590 </ul>
+          <ul>1218 Monterey St Vallejo, CA 94590 </ul>
           Jameelah@watchmegrowinc.com
         </div>
       </Container>
