@@ -9,7 +9,7 @@ function Popup(){
   useEffect(() => {
     const timer = setTimeout(() => {
       setModal(true);
-    }, 1000);
+    }, 3000);
 
     // Cleanup timer on component unmount
     return () => {
