@@ -43,7 +43,6 @@ const ContactUs = () => {
   return (
     <Container>
         <br></br>
-      <h1>Contact Us</h1>
       <Form onSubmit={handleSubmit}>
         <FormGroup>
           <Label for="name">Full Name</Label>
