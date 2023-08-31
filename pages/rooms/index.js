@@ -52,7 +52,7 @@ export default function Rooms() {
               you to explore our Amazon Wishlist for the specific room(s) you're
               interested in sponsoring. Your purchase will make a significant
               contribution to the operation of the Watch Me Grow Community
-              Center.
+              Center.  As a token of thanks, we'll prominently display your name or business in the room. Act now to make a lasting impact on our community.
             </div>
             <br></br>
           </div>
