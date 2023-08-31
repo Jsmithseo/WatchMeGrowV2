@@ -18,7 +18,7 @@ const ContactUs = () => {
     // Handle form submission logic here
     console.log(`Form submitted:`, formData);
 
-    const response = await fetch('./api/sendMail', {
+    const response = await fetch('./api/sendMailContact', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
