@@ -90,9 +90,8 @@ function TwoColumnLayout() {
               a suite of services, from job placements to mental health support.
               Join us in our mission to pave a brighter, informed future for the
               youth of Vallejo! 
-              <br></br>
-              <Link href='/rooms'> Sponsor a Room</Link>
             </p>
+            <Link href='/rooms'> Sponsor a Room</Link>
           </Col>
         </Row>
       </Container>
