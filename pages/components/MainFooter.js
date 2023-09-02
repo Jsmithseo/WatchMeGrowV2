@@ -20,12 +20,12 @@ function MainFooter() {
     <footer style={footerStyle} className="government-footer">
       <div className="container">
         <div className="row">
-          <Col>
+          <Col md="5">
             The Official Site of Watch Me Grow  Inc &copy; All Rights
             Reserved. WMG is a 501(c)3 (nonprofit) organization and donations
             are tax deductible.
           </Col>
-          <Col md="6">
+          <Col md="4">
             {/* <Link href="" style={{ textDecoration: 'none' }}>
               Donor Privacy | &nbsp;
             </Link> */}
@@ -41,6 +41,9 @@ function MainFooter() {
             <Link href="https://www.instagram.com/p/Cg2hkZfBzV8/?igshid=NmZiMzY2Mjc%3D" style={{ textDecoration: 'none' }}>
               Instagram
             </Link>
+          </Col>
+          <Col md="3">
+            Powered By <Link href="https://calendly.com/softwaresmitty/15min">Onyx Creative Labs</Link>
           </Col>
         </div>
       </div>
