@@ -11,7 +11,7 @@ import Footer from '../components/MainFooter';
 import InvolvedBanner from '../components/InvolvedBanner';
 import VolunteerForm from '../components/VolunteerForm';
 
-export default function Involved() {
+export default function Volunteer() {
 
   return (
 

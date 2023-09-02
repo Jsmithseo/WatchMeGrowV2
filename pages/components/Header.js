@@ -140,7 +140,7 @@ function Header() {
               <NavItem>
               <Link href="/involved/" style={{ textDecoration: 'none' }}>
                 <div className='navLinks'>
-                  Get Involved
+                Volunteer
                 </div>
                 </Link>
               </NavItem>
