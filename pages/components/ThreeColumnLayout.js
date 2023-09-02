@@ -10,10 +10,14 @@ const ThreeColumnLayout = () => {
   const heading = {
     fontSize: '36px',
     fontFamily: 'avenir',
-    paddingBottom: '30px',
+    paddingBottom: '10px',
     color: '#fff',
     fontWeight: 'bold',
   };
+
+  const headingCopy = {
+    paddingBottom: '60px',
+  }
 
   const mainStyles = {
     backgroundColor: '#C11C27',
@@ -27,6 +31,7 @@ const ThreeColumnLayout = () => {
       <Container>
         <Row className="text-center">
           <h2 style={heading}>Help Us Cultivate</h2>
+          <h5 style={headingCopy}>Our three pillar system forms the bedrock of our approach, built on innovation, collaboration, and sustainable impact</h5>
           <Col md="4" sm="12">
             <h3 className="dummy-box">Educate</h3>
             <h5 style={paragraphStyle}>
