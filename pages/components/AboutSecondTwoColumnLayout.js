@@ -22,13 +22,13 @@ const imageStyle = {
   borderRadius: '5%',
 };
 
-const photoStyle =  {
+const photoStyle = {
   paddingTop: '5%',
-}
+};
 
 const titleStyle = {
-  textAlign: "center"
-}
+  textAlign: 'center',
+};
 
 function TwoColumnLayout() {
   return (
@@ -47,39 +47,44 @@ function TwoColumnLayout() {
           <Col md="12">
             <div style={photoStyle}>
               <h3 style={titleStyle}>About The Gardener</h3>
-              <center style={{ paddingTop: '30px', paddingBottom: '30px'}}>
-              <Image
-              style={imageStyle}
-              src={Jameelah}
-              alt="Description of Image"
-              width={300}
-              height={300}
-            />
+              <center style={{ paddingTop: '30px', paddingBottom: '30px' }}>
+                <Image
+                  style={imageStyle}
+                  src={Jameelah}
+                  alt="Description of Image"
+                  width={300}
+                  height={300}
+                />
               </center>
-           
+
               <div>
-                
-                Jameelah Hanif was born & raised in Oakland, Ca. She has been a
-                resident of Vallejo since 2001. She is a single mother of her
-                amazing 10 year old son, Brandon Johnson. Jameelah Hanif has
-                always been inspired to one day open Watch Me Grow Community
-                Development Center, where her organization will provide quality
-                child care program during the day, an after school program for
-                the youth, along with providing educational opportunities for
-                parents and entire community that will contribute to them
-                thriving. She found this as a way to strengthen the child,
-                family and community Going after her dream, Ms.Hanif first step
-                was establishing Watch Me Grow Child Care. In 2012, Ms.Hanif
-                established Watch Me Grow Child in the City of Vallejo, where
-                she's had great partnerships with organization Child Start, Inc.
-                In 2016, as a single mother and successful business owner,
-                Ms.Hanif decided to return to school to finish what she started.
-                At 34 years old, Jameelah returned to Contra Costa College to
-                play her second year of basketball and obtain her A.S. In Child
-                Development & Family Services with specializations in Infant
-                toddler care & development and violence intervention and
-                counseling.
+              Jameelah has been a resident of Vallejo since 2001. She is a
+              single mother of her amazing 10 year old son. Born and raised in
+              Oakland, Ca, and experiencing what’s it’s like to grow up in a
+              household and community that was trauma filled as the results of
+              ACEs (Adverse Childhood Experiences). Ms.Hanif is serious about
+              creating safe, healthy, and nurturing environments and communities
+              where children can live, learn and play in without fear. She is in
+              process of opening Watch Me Grow Community Center, where her
+              founding organization, Watch Me Grow, Inc. and partners will
+              provide various resources, workshops and job trainings during the
+              day and after-school positive youth development programs. This
+              will be an establishment that provide wrap-around services for the
+              entire community that will contribute to help them from surviving
+              to thriving.
               </div>
+              <br></br>
+              <center><h5>Ms.Hanif Qualifications:</h5>
+            <ul>Parent Leader</ul>
+            <ul>Emerge California Alumna</ul>
+            <ul>Leadership Vallejo Alumna</ul>
+            <ul>Licensed Child Care Provider</ul>
+            <ul>Certified Positive Parenting Program Facilitator </ul>
+            <ul>Emotional Intelligence Consultant</ul>
+            <ul>Parent Leadership Training Facilitator </ul>
+            <ul>Alternative To Violence Facilitator </ul>
+            <ul>Certified Trauma Support Specialist </ul>
+            </center>
             </div>
           </Col>
         </Row>
