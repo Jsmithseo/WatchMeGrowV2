@@ -15,8 +15,8 @@ const BannerStyles = {
 };
 
 const bannerButton = {
-  backgroundColor: '#fff',
-  color: '#007bff',
+  backgroundColor: '#198754',
+  color: '#fff',
   fontSize: '18px',
   padding: '5px 20px',
   border: 'none',
@@ -48,10 +48,10 @@ function Banner() {
             vital resources, uniting and strengthening communities for a
             brighter future.
           </div>
-
-          <Link href="/about">
+          <br></br>
+          <Link href="/donate">
             {' '}
-            <button style={bannerButton}>Learn More</button>
+            <button style={bannerButton}>Donate Now</button>
           </Link>
         </Col>
         <Col></Col>
