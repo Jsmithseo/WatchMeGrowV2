@@ -42,7 +42,7 @@ const paraStyle = {
 };
 
 const buttonStyle = {
-  backgroundColor: '#198753',
+  backgroundColor: '#C11C27',
   mariginTop: '20px',
 };
 function CenterAlignedButtons() {
@@ -57,8 +57,8 @@ function CenterAlignedButtons() {
             their future health and wellness.
           </p>
           <h2 style={heading}>Your gift is empowerment</h2>
-          <Link href="/donate">
-            <Button style={buttonStyle}>Donate Now</Button>
+          <Link href="/about">
+            Learn More
           </Link>
         </div>
         {/* <Row className="justify-content-center">
