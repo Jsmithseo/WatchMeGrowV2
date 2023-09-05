@@ -97,7 +97,7 @@ export default function Privacy() {
           credit card transactions. Your information may also be shared with
           other reputable non-profit organizations on a limited basis. If you
           wish to be excluded from such activities, please contact us at
-          Jameelah@watchmegrowinc.com
+          info@watchmegrowinc.com
         </div>
         <center>
           <h2>Data Integrity and Security</h2>
@@ -119,7 +119,7 @@ export default function Privacy() {
         </center>
         <div className="copy">
           Please direct your questions or requests to
-          Jameelah@watchmegrowinc.com
+          info@watchmegrowinc.com
         </div>
         <center>
           <h2>Other Sites and Changes to the Policy</h2>
@@ -139,7 +139,7 @@ export default function Privacy() {
           <ul>Watch Me Grow Inc</ul>
           <ul>Attn: Legal Department</ul>
           <ul>1218 Monterey St Vallejo, CA 94590 </ul>
-          Jameelah@watchmegrowinc.com
+          info@watchmegrowinc.com
         </div>
       </Container>
       <AboutNewsletterForm />
