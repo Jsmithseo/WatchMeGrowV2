@@ -25,6 +25,8 @@ function FourColumnLayout() {
             <div className="first-column">
               {/* Content for the first column goes here */}
               <h2>Join Our Newsletter</h2>
+              <h5>Our monthly newsletter is more than just a compilation of articles—it's a beacon of hope and a resource kit rolled into one.</h5>
+              <br></br>
               <NewsletterForm />
             </div>
           </Col>

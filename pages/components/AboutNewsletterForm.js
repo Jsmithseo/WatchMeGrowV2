@@ -25,12 +25,15 @@ function AboutNewsletterForm() {
           <Col md="7">
             <p>STAY INFORMED WITH NEWS & UPDATES</p>
             <Form>
+            <InputGroup>
+                <FormControl type="name" placeholder="Enter your full name" />
+              </InputGroup>
               <InputGroup>
                 <FormControl type="email" placeholder="Enter your email" />
-                <Button variant="primary" type="submit">
+              </InputGroup>
+              <Button variant="primary" type="submit">
                   Subscribe
                 </Button>
-              </InputGroup>
             </Form>
           </Col>
         </Row>

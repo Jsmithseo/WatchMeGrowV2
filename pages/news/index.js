@@ -12,9 +12,14 @@ import { Container } from 'reactstrap';
 
 export default function News() {
   return (
-    <div>
+    <div className="mainStyle">
       <style jsx>
         {`
+
+        .mainStyle {
+            overflow: hidden;
+        }
+
           .copy {
             text-align: center;
             margin-top: 50px;
