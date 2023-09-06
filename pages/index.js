@@ -10,6 +10,9 @@ import SecondMainTwoColumnLayout from './components/SecondMainTwoColumnLayout';
 import MainFourColumnLayout from './components/MainFourColumnLayout';
 import AboutCenterAlignedButtons from './components/AboutCenterAlignedButtons';
 import Popup from './components/Popup';
+import Script from 'next/script'
+
+
 
 export default function Index() {
   const MainStyle = {
@@ -17,6 +20,16 @@ export default function Index() {
   };
   return (
     <div style={MainStyle}>
+            <Script src="https://www.googletagmanager.com/gtag/js?id=G-XEVZD62TYP" />
+      <Script id="google-analytics">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+ 
+          gtag('config', 'G-XEVZD62TYP');
+        `}
+      </Script>
       <Header />
       <Banner />
       <MainTwoUpFront />
