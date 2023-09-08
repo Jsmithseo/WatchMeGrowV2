@@ -34,7 +34,7 @@ function ProgramTiles() {
   return (
     <div style={MainStyle}>
       <Container>
-        <center><h4>Personalized Paths to Healing at Watch Me Grow Inc.</h4></center>
+        <center><h4>Personalized Paths to Healing at Watch Me Grow, Inc.</h4></center>
         <div style={copy}>At Watch Me Grow Inc, we're dedicated to addressing the deep emotional echoes of trauma. Our programs are handcrafted with heart, ensuring everyone gets the personal touch they need on their healing journey. Instead of a one-size-fits-all approach, we embrace the unique stories of those we serve. And beyond individual sessions, our community groups are a haven—a space for shared stories and mutual healing. Simply put, we're here to walk alongside every person, from past pain to a brighter tomorrow.</div>
         <Row>
           <Col md="3">
