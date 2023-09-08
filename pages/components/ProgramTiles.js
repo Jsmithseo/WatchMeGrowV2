@@ -27,7 +27,8 @@ const MainStyle = {
 const copy = {
   textAlign: 'center',
   paddingBottom: '30px',
-  fontSize: '22px'
+  fontSize: '22px',
+  fontFamily: 'avenir'
 }
 
 function ProgramTiles() {
