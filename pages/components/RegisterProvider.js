@@ -34,7 +34,7 @@ const RegisterProvider = () => {
     });
     if (response.status === 200) {
       console.log('Email sent successfully');
-      window.location.href = '/thankyou';
+      window.location.href = '/thankyouchikdcare';
     } else {
       console.error('Error sending email');
     }

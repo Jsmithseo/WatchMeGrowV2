@@ -33,7 +33,7 @@ const RegisterChildcare = () => {
     });
     if (response.status === 200) {
       console.log('Email sent successfully');
-      window.location.href = '/thankyou';
+      window.location.href = '/thankyouchildcare';
     } else {
       console.error('Error sending email');
     }

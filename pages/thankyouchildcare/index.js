@@ -14,7 +14,7 @@ const copyStyle = {
   fontSize: '22px',
   fontFamily: 'avenir',
   paddingTop: '100px',
-  paddingBottom: '100px',
+  paddingBottom: '300px',
 };
 
 export default function Thankyou() {
@@ -28,8 +28,6 @@ export default function Thankyou() {
             <div className="bio-content">
               <div style={copyStyle}>
                 We're excited to welcome you to the Watch Me Grow community!
-                Thank you for subscribing to our newsletter. It's a step towards
-                staying informed, inspired, and engaged with the latest from us.
               </div>
             </div>
           </Col>
