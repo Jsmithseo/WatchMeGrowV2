@@ -7,7 +7,7 @@ import ThankYouBanner from '../components/ThankyouBanner';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import ChildCareLogo from '../public/childcarelogo.png';
+import ChildCareLogo from '../public/childcarelogo.PNG';
 import {
   Container,
   Row,
