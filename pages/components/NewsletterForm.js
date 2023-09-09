@@ -26,38 +26,29 @@ function NewsletterForm() {
   };
 
   return (
-    <div className="newsletter">
+      <Form  inline onSubmit={handleSubmit} style={{display: "inline-flex"}}>
+        <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
+          <Input
+            type="name"
+            name="name"
+            id="name"
+            placeholder="Enter your full name"
+          />
+        </FormGroup>
+        <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
 
-      <style jsx>
-        {`
+          <Input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email"
+          />
+        </FormGroup>
 
-        .newsletter {
-          margin: 0;
-          display: flex;
-          justify-content: center; 
-        }
-        `}
-      </style>
-    <Form onSubmit={handleSubmit}>
-      <FormGroup>
-      <Input
-          type="name"
-          name="name"
-          id="name"
-          placeholder="Enter your full name"
-        />
-        <Input
-          type="email"
-          name="email"
-          id="email"
-          placeholder="Enter your email"
-        />
-      </FormGroup>
-      <Button type="submit" color="primary">
-        Submit
-      </Button>
-    </Form>
-    </div>
+        <Button type="submit" color="primary">
+          Submit
+        </Button>
+      </Form>
   );
 }
 
