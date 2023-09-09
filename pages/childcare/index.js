@@ -7,7 +7,7 @@ import ThankYouBanner from '../components/ThankyouBanner';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Logo from '../public/childcarelogo.png';
+import ChildCareLogo from '../public/childcarelogo.png';
 import {
   Container,
   Row,
@@ -57,7 +57,7 @@ export default function Childcare() {
             <center>
               <Link href="/">
                 <Image
-                  src={Logo}
+                  src={ChildCareLogo}
                   alt="Description of Image"
                   width={200}
                   height={175}
