@@ -1,7 +1,14 @@
 import React, { useState } from 'react';
-import { Nav, NavItem, NavLink, TabContent, TabPane, Container } from 'reactstrap';
+import {
+  Nav,
+  NavItem,
+  NavLink,
+  TabContent,
+  TabPane,
+  Container,
+} from 'reactstrap';
 import classnames from 'classnames';
-import {  Row, Col, Button } from 'reactstrap';
+import { Row, Col, Button } from 'reactstrap';
 import Link from 'next/link';
 
 const mainStyle = {
@@ -31,24 +38,20 @@ const fifthButton = {
 };
 
 function AboutCenterAlignedButtons() {
-
   const [activeTab, setActiveTab] = useState('1');
 
-  const toggle = tab => {
+  const toggle = (tab) => {
     if (activeTab !== tab) setActiveTab(tab);
   };
   return (
     <div style={mainStyle}>
-            <style jsx>
+      <style jsx>
         {`
           .tabStyle {
             display: flex;
             justify-content: center;
             align-items: center;
-
           }
-
-       
         `}
       </style>
       <Container>
@@ -57,27 +60,31 @@ function AboutCenterAlignedButtons() {
         </div>
         <br></br>
         <div className="tabStyle">
-        <Nav tabs>
-        <NavItem >
-          <NavLink
-            className={classnames({ active: activeTab === '1' })}
-            onClick={() => { toggle('1'); }}
-          >
-            One Time
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink
-            className={classnames({ active: activeTab === '2' })}
-            onClick={() => { toggle('2'); }}
-          >
-            Monthly
-          </NavLink>
-        </NavItem>
-      </Nav>
-      </div>
-      <br></br>
-      <br></br>
+          <Nav tabs>
+            <NavItem style={{cursor: 'pointer'}}>
+              <NavLink
+                className={classnames({ active: activeTab === '1' })}
+                onClick={() => {
+                  toggle('1');
+                }}
+              >
+                One Time
+              </NavLink>
+            </NavItem>
+            <NavItem style={{cursor: 'pointer'}}>
+              <NavLink
+                className={classnames({ active: activeTab === '2' })}
+                onClick={() => {
+                  toggle('2');
+                }}
+              >
+                Monthly
+              </NavLink>
+            </NavItem>
+          </Nav>
+        </div>
+        <br></br>
+        <br></br>
         <TabContent activeTab={activeTab}>
           <TabPane tabId="1">
             <Row className="justify-content-center">
@@ -144,13 +151,12 @@ function AboutCenterAlignedButtons() {
                     $25
                   </Link>
                 </Button>
-               
               </Col>
               <Col md="auto" sm="2" xs="2">
                 <Button style={secondButton} className="mx-2">
                   <Link
                     href="https://buy.stripe.com/00geVrdlda0y5VKfZ4"
-                    style={{ textDecoration: 'none', color: 'black'}}
+                    style={{ textDecoration: 'none', color: 'black' }}
                   >
                     $50
                   </Link>
@@ -160,7 +166,7 @@ function AboutCenterAlignedButtons() {
                 <Button style={thirdButton} className="mx-2">
                   <Link
                     href="https://buy.stripe.com/5kAaFb80T4GegAobIP"
-                    style={{ textDecoration: 'none', color: 'black'}}
+                    style={{ textDecoration: 'none', color: 'black' }}
                   >
                     $100
                   </Link>
