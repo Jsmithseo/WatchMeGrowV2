@@ -7,7 +7,7 @@ import ThankYouBanner from '../components/ThankyouBanner';
 import Image from 'next/image';
 import Link from 'next/link';
 
-import Logo from '../public/logo.png';
+import Logo from '../public/childcarelogo.png';
 import {
   Container,
   Row,
@@ -55,14 +55,14 @@ export default function Childcare() {
         <Row>
           <Col md="12">
             <center>
-            <Link href="/">
-              <Image
-                src={Logo}
-                alt="Description of Image"
-                width={200}
-                height={175}
-              />
-            </Link>
+              <Link href="/">
+                <Image
+                  src={Logo}
+                  alt="Description of Image"
+                  width={200}
+                  height={175}
+                />
+              </Link>
             </center>
             <div className="bio-content">
               <div style={copyStyle}>
@@ -76,7 +76,7 @@ export default function Childcare() {
           </Col>
           <div className="tabStyle">
             <Nav tabs>
-              <NavItem style={{cursor: 'pointer'}}>
+              <NavItem style={{ cursor: 'pointer' }}>
                 <NavLink
                   className={classnames({ active: activeTab === '1' })}
                   onClick={() => {
@@ -85,8 +85,8 @@ export default function Childcare() {
                 >
                   Childcare
                 </NavLink>
-              </NavItem >
-              <NavItem style={{cursor: 'pointer'}}>
+              </NavItem>
+              <NavItem style={{ cursor: 'pointer' }}>
                 <NavLink
                   className={classnames({ active: activeTab === '2' })}
                   onClick={() => {
@@ -103,9 +103,13 @@ export default function Childcare() {
           <TabContent activeTab={activeTab}>
             <TabPane tabId="1">
               <ChildcareForm />
+              <br></br>
+              <br></br>
             </TabPane>
             <TabPane tabId="2">
               <ChildProviderForm />
+              <br></br>
+              <br></br>
             </TabPane>
           </TabContent>
         </Row>
