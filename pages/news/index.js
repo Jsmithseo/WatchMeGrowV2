@@ -5,7 +5,7 @@ import AboutTwoColumnLayout from '../components/AboutTwoColumnLayout';
 import Timeline from '../components/Timeline';
 import AboutSecondaryTwoColumnLayout from '../components/AboutSecondTwoColumnLayout';
 import AboutCenterAlignedButtons from '../components/AboutCenterAlignedButtons';
-import AboutNewsletterForm from '../components/AboutNewsletterForm';
+import NewsletterForm from '../components/NewsletterForm';
 import Footer from '../components/MainFooter';
 import NewsBanner from '../components/NewsBanner';
 import { Container } from 'reactstrap';
@@ -15,10 +15,9 @@ export default function News() {
     <div className="mainStyle">
       <style jsx>
         {`
-
-        .mainStyle {
+          .mainStyle {
             overflow: hidden;
-        }
+          }
 
           .copy {
             text-align: center;
@@ -52,7 +51,9 @@ export default function News() {
           aims to transform lives through ACEs awareness.
         </div>
       </Container>
-      <AboutNewsletterForm />
+      <div style={{marginBottom: "7em", textAlign: "center"}}>
+      <NewsletterForm />
+      </div>
       <Footer />
     </div>
   );
