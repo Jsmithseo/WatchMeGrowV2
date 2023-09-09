@@ -83,7 +83,7 @@ export default function Childcare() {
                     toggle('1');
                   }}
                 >
-                  I need childcare
+                  childcare
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -93,11 +93,12 @@ export default function Childcare() {
                     toggle('2');
                   }}
                 >
-                  I want to be a childcare provider
+                  childcare provider
                 </NavLink>
               </NavItem>
             </Nav>
           </div>
+          <br></br>
           <TabContent activeTab={activeTab}>
             <TabPane tabId="1">
               <ChildcareForm />
