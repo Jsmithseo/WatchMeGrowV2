@@ -60,7 +60,7 @@ export default function Childcare() {
                 src={Logo}
                 alt="Description of Image"
                 width={200}
-                height={150}
+                height={175}
               />
             </Link>
             </center>
