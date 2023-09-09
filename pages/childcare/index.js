@@ -76,7 +76,7 @@ export default function Childcare() {
           </Col>
           <div className="tabStyle">
             <Nav tabs>
-              <NavItem>
+              <NavItem style={{cursor: 'pointer'}}>
                 <NavLink
                   className={classnames({ active: activeTab === '1' })}
                   onClick={() => {
@@ -85,8 +85,8 @@ export default function Childcare() {
                 >
                   Childcare
                 </NavLink>
-              </NavItem>
-              <NavItem>
+              </NavItem >
+              <NavItem style={{cursor: 'pointer'}}>
                 <NavLink
                   className={classnames({ active: activeTab === '2' })}
                   onClick={() => {
