@@ -99,6 +99,7 @@ export default function Childcare() {
             </Nav>
           </div>
           <br></br>
+          <br></br>
           <TabContent activeTab={activeTab}>
             <TabPane tabId="1">
               <ChildcareForm />
