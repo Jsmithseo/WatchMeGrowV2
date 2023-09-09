@@ -30,7 +30,7 @@ const copyStyle = {
   fontSize: '22px',
   fontFamily: 'avenir',
   paddingTop: '50px',
-  paddingBottom: '100px',
+  paddingBottom: '50px',
   textAlign: 'center',
 };
 
