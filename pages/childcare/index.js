@@ -83,7 +83,7 @@ export default function Childcare() {
                     toggle('1');
                   }}
                 >
-                  childcare
+                  Childcare
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -93,7 +93,7 @@ export default function Childcare() {
                     toggle('2');
                   }}
                 >
-                  childcare provider
+                  Childcare Provider
                 </NavLink>
               </NavItem>
             </Nav>
