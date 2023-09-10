@@ -21,9 +21,9 @@ function MainFooter() {
       <div className="container">
         <div className="row">
           <Col md="5">
-            The Official Site of Watch Me Grow  Inc &copy; All Rights
-            Reserved. WMG is a 501(c)3 (nonprofit) organization and donations
-            are tax deductible.
+            The Official Site of Watch Me Grow Inc &copy; All Rights Reserved.
+            WMG is a 501(c)3 (nonprofit) organization and donations are tax
+            deductible.
           </Col>
           <Col md="4">
             {/* <Link href="" style={{ textDecoration: 'none' }}>
@@ -32,18 +32,27 @@ function MainFooter() {
             <Link href="/privacy" style={{ textDecoration: 'none' }}>
               Privacy Policy | &nbsp;
             </Link>
-              <Link href="/contact" style={{ textDecoration: 'none' }}>
+            <Link href="/contact" style={{ textDecoration: 'none' }}>
               Contact Us | &nbsp;
             </Link>
-            <Link href="https://www.facebook.com/watchmegrowinc707/" style={{ textDecoration: 'none' }}>
+            <Link
+              href="https://www.facebook.com/watchmegrowinc707/"
+              style={{ textDecoration: 'none' }}
+            >
               Facebook | &nbsp;
             </Link>
-            <Link href="https://www.instagram.com/p/Cg2hkZfBzV8/?igshid=NmZiMzY2Mjc%3D" style={{ textDecoration: 'none' }}>
+            <Link
+              href="https://www.instagram.com/p/Cg2hkZfBzV8/?igshid=NmZiMzY2Mjc%3D"
+              style={{ textDecoration: 'none' }}
+            >
               Instagram
             </Link>
           </Col>
           <Col md="3">
-            Powered By <Link href="https://calendly.com/softwaresmitty/15min">Onyx Creative Labs</Link>
+            Powered By{' '}
+            <Link href="https://Onyxcreativelabs.com">
+              Onyx Creative Labs
+            </Link>
           </Col>
         </div>
       </div>
